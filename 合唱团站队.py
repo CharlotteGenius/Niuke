@@ -34,7 +34,11 @@ def deal(heights,result):
     deal[0] = heights[0]
     result = result + [1]
     
-    for i in range(1,len(heights)):
+    JIARUYIHANG
+    
+# =============================================================================
+#     for i in range(1,len(heights)):
+# =============================================================================
         pos = bisect.bisect_left(deal,heights[i]) 
         
         # bisect.bisect_left(a, x, lo=0, hi=len(a))
