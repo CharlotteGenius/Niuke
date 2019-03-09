@@ -87,16 +87,13 @@ def Trans(string):
     return ''.join(string_trans)
 # input what, return what
     
-while True:
-    try:
-        str1, str2 = input().strip().split()
-        str_join = Join(str1,str2)
-        str_sort = Sort(str_join)
-        str_trans = Trans(str_sort)
-        
-        print(str_trans)
-    except:
-        break
+
+str1, str2 = input().strip().split()
+str_join = Join(str1,str2)
+str_sort = Sort(str_join)
+str_trans = Trans(str_sort)
+
+print(str_trans)
 
 
 
